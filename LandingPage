@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southeast Expo Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #9b1012;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #9b1012;
+        }
+        p {
+            color: #333;
+            line-height: 1.6;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #9b1012;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .footer {
+            text-align: center;
+            color: #666;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to the Southeast Expo Center</h1>
+        <p>Your destination for unforgettable events in McAlester, OK</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- About Section -->
+        <section>
+            <h2>About Us</h2>
+            <p>The Southeast Expo Center is a premier venue in McAlester, Oklahoma, offering a spacious and versatile environment for a wide range of events, from trade shows and expos to corporate meetings, community events, and more.</p>
+        </section>
+
+        <!-- Upcoming Events -->
+        <section>
+            <h2>Upcoming Events</h2>
+            <p>Stay tuned for our exciting lineup of events! Whether you’re an attendee, exhibitor, or organizer, the Southeast Expo Center has something for everyone. For the latest updates, follow us on social media or visit our website regularly.</p>
+            <a href="#" class="button">View Events</a>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h2>Contact Us</h2>
+            <p>Have questions or want to book our venue? Reach out to us!</p>
+            <p>Email: <a href="mailto:info@southeastexpocenter.com">info@southeastexpocenter.com</a></p>
+            <p>Phone: <a href="tel:+19184231338">918-423-1338</a></p>
+            <p>Address: 4500 W Highway 270, McAlester, OK 74501</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2023 Southeast Expo Center. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
